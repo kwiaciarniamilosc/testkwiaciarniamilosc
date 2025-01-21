@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Galeria | Kwiaciarnia Miłość | Inspirujące kompozycje kwiatowe</title>
+    <meta name="description" content="Odkryj nasze najpiękniejsze realizacje kwiatowe. Profesjonalne bukiety, dekoracje ślubne i wyjątkowe kompozycje w Warszawie. ✨ Autorskie aranżacje kwiatowe.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kwiaciarniamilosc.pl/gallery">
+    <meta property="og:title" content="Galeria Kwiaciarni Miłość | Inspirujące kompozycje kwiatowe">
+    <meta property="og:description" content="Zobacz nasze najpiękniejsze realizacje kwiatowe. Bukiety, dekoracje i kompozycje w Warszawie.">
+    <meta property="og:image" content="../assets/images/gallery/flowers1.jpg">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/gallery.css">
+    <link rel="stylesheet" href="../assets/css/components/footer.css"> <!-- Add this line -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="../assets/images/logo.png" alt="Kwiaciarnia Miłość" width="50" height="50">
+            </a>
+            
+            <div class="nav-links">
+                <a href="../public/gallery/index.html">Galeria</a>
+                <a href="../blog/index.html">Blog</a>
+                <a href="../index.html">Strona Główna</a>
+                <a href="../index.html#contact">Kontakt</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="tel:733060191" class="phone-button">
+                    <i class="fas fa-phone"></i>
+                    <span>733 060 191</span>
+                </a>
+                <a href="https://wolt.com/pl/pol/warsaw/venue/pracownia-kwiatw-i-balonw-mio" class="order-button">
+                    Zamów teraz
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <header class="gallery-header">
+        <div class="container">
+            <h1>Nasze Realizacje</h1>
+            <p>Odkryj piękno naszych kwiatowych kompozycji i znajdź inspirację dla swojej uroczystości</p>
+        </div>
+    </header>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+        <div class="container">
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">Wszystkie</button>
+                <button class="category-btn" data-category="bouquets">Bukiety</button>
+                <button class="category-btn" data-category="wedding">Ślubne</button>
+                <button class="category-btn" data-category="events">Dekoracje</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" data-category="bouquets">
+                    <img src="../assets/images/gallery/flowers1.jpg" 
+                         alt="Kompozycja kwiatowa 1"
+                         loading="lazy">
+                    <div class="item-overlay">
+                        <h3>Bukiet Premium</h3>
+                        <p>Autorska kompozycja kwiatowa</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" data-category="wedding">
+                    <img src="../assets/images/gallery/flowers2.jpg" 
+                         alt="Kompozycja kwiatowa 2"
+                         loading="lazy">
+                    <div class="item-overlay">
+                        <h3>Bukiet Ślubny</h3>
+                        <p>Elegancka kompozycja ślubna</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" data-category="events">
+                    <img src="../assets/images/gallery/flowers3.jpg" 
+                         alt="Kompozycja kwiatowa 3"
+                         loading="lazy">
+                    <div class="item-overlay">
+                        <h3>Dekoracja Eventowa</h3>
+                        <p>Dekoracja na specjalne okazje</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" data-category="bouquets">
+                    <img src="../assets/images/gallery/flowers4.jpg" 
+                         alt="Kompozycja kwiatowa 4"
+                         loading="lazy">
+                    <div class="item-overlay">
+                        <h3>Bukiet Klasyczny</h3>
+                        <p>Tradycyjna kompozycja kwiatowa</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" data-category="wedding">
+                    <img src="../assets/images/gallery/flowers5.jpg" 
+                         alt="Kompozycja kwiatowa 5"
+                         loading="lazy">
+                    <div class="item-overlay">
+                        <h3>Bukiet Panny Młodej</h3>
+                        <p>Wyjątkowa kompozycja ślubna</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" data-category="events">
+                    <img src="../assets/images/gallery/flowers6.jpg" 
+                         alt="Kompozycja kwiatowa 6"
+                         loading="lazy">
+                    <div class="item-overlay">
+                        <h3>Dekoracja Okolicznościowa</h3>
+                        <p>Kompozycja na wyjątkowe okazje</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <button class="lightbox-close" aria-label="Zamknij">&times;</button>
+        <button class="lightbox-prev" aria-label="Poprzednie zdjęcie">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-next" aria-label="Następne zdjęcie">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="Powiększone zdjęcie">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <img src="../assets/images/logo.png" alt="Kwiaciarnia Miłość" 
+                         width="50" height="50">
+                    <p>Twoja zaufana kwiaciarnia w sercu Warszawy. Dostarczamy piękno 
+                       i radość poprzez kwiaty od 2023 roku.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="/">Strona Główna</a></li>
+                            <li><a href="#about">O Nas</a></li>
+                            <li><a href="#services">Usługi</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h3>Usługi</h3>
+                        <ul>
+                            <li><a href="/bukiety-slubne">Bukiety Ślubne</a></li>
+                            <li><a href="/flower-box">Flower Box</a></li>
+                            <li><a href="/dostawa">Dostawa Kwiatów</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h3>Social Media</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/people/Kwiaciarnia-Mi%C5%82o%C5%9B%C4%87/100093278811038/" 
+                               target="_blank" rel="noopener" aria-label="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/kwiaciarnia_milosc/" 
+                               target="_blank" rel="noopener" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@pracownia.milosc/" 
+                               target="_blank" rel="noopener" aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kwiaciarnia Miłość. Wszystkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/components/gallery.js" type="module"></script>
+</body>
+</html>

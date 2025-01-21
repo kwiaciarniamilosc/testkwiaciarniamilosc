@@ -1,0 +1,63 @@
+# config/robots.txt
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /config/
+Sitemap: https://kwiaciarniamilosc.pl/sitemap.xml
+
+# config/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://kwiaciarniamilosc.pl/</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://kwiaciarniamilosc.pl/gallery</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://kwiaciarniamilosc.pl/blog</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
+
+# meta/manifest.json
+{
+    "name": "Kwiaciarnia Miłość",
+    "short_name": "Kwiaciarnia",
+    "description": "Ekskluzywna kwiaciarnia w centrum Warszawy",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#FF7B7B",
+    "icons": [
+        {
+            "src": "/assets/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
+
+# meta/browserconfig.xml
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/assets/images/mstile-150x150.png"/>
+            <TileColor>#FF7B7B</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
