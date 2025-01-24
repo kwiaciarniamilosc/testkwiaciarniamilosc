@@ -17,7 +17,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img
-              src="/api/placeholder/600/400"
+              src="src/assets/images/gallery/Nasze-wnętrze-onas.jpg" //about page photo (O nas)
               alt="Nasze wnętrze"
               className="rounded-lg shadow-lg"
             />

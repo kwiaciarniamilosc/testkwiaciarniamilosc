@@ -7,42 +7,42 @@ const products = [
     name: 'Bukiet Różowy Sen',
     description: 'Elegancka kompozycja z róż i eustomy',
     price: '199 zł',
-    image: '/api/placeholder/400/400'
+    image: 'src/assets/images/gallery/flowers3.jpg'
   },
   {
     id: 2,
     name: 'Białe Inspiracje',
     description: 'Delikatny bukiet z białych kwiatów',
     price: '179 zł',
-    image: '/api/placeholder/400/400'
+    image: 'src/assets/images/gallery/IMG_4596.jpg'
   },
   {
     id: 3,
     name: 'Polne Kwiaty',
     description: 'Naturalna kompozycja polnych kwiatów',
     price: '149 zł',
-    image: '/api/placeholder/400/400'
+    image: 'src/assets/images/gallery/luksusowy-bukiet-roz-najlepsza-kwiaciarnia-warszawa-mokotow.jpg'
   },
   {
     id: 4,
     name: 'Bukiet Ślubny Classic',
     description: 'Klasyczny bukiet ślubny z róż i piwonii',
     price: '299 zł',
-    image: '/api/placeholder/400/400'
+    image: 'src/assets/images/gallery/kwiaciarnia-milosc-pulawska-38.jpg'
   },
   {
     id: 5,
     name: 'Wiosenna Świeżość',
     description: 'Kolorowa mieszanka kwiatów sezonowych',
     price: '169 zł',
-    image: '/api/placeholder/400/400'
+    image: 'src/assets/images/gallery/IMG_5425.jpg'
   },
   {
     id: 6,
     name: 'Romantyczny Wieczór',
     description: 'Czerwone róże z dekoracyjną zieleną',
     price: '229 zł',
-    image: '/api/placeholder/400/400'
+    image: 'src/assets/images/gallery/flowers3.jpg'
   }
 ];
 
@@ -81,7 +81,7 @@ const ProductGallery = () => {
                 <p className="text-gray-600 mb-4">{product.description}</p>
                 <button
                   className="inline-flex items-center text-pink-500 hover:text-pink-600 transition-colors"
-                  onClick={() => window.location.href = 'https://wolt.com/'}
+                  onClick={() => window.location.href = 'https://wolt.com/pl/pol/warsaw/venue/pracownia-kwiatw-i-balonw-mio'}
                 >
                   Zamów teraz
                   <ChevronRight className="ml-1 h-4 w-4" />

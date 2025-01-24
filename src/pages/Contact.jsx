@@ -40,11 +40,11 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="h-6 w-6 text-pink-500" />
-                  <span>kwiaciarniamilosc@gmail.com</span>
+                  <span>biuro@kwiaciarniamilosc.pl</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Clock className="h-6 w-6 text-pink-500" />
-                  <span>Pon-Pt: 9:00-19:00<br />Sob-Nd: 10:00-18:00</span>
+                  <span>Pon-Pt: 9:00-19:00<br />Sob : 10:00-19:00<br />Nd: 10:00-17:00</span>
                 </div>
               </div>
             </div>

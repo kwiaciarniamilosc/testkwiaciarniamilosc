@@ -9,5 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/testkwiaciarniamilosc.pl/', // Ensure this matches your repository name
+  base: '/', // Changed this line for local development
 });

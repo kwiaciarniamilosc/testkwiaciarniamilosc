@@ -29,7 +29,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src="/api/placeholder/50/50" alt="Kwiaciarnia Miłość" className="h-12 w-auto" />
+            <img src="src/assets/images/logo/logo.png" alt="Kwiaciarnia Miłość" className="h-12 w-auto" /> {/*header part logo */}
           </Link>
 
           {/* Desktop Navigation */}
@@ -47,7 +47,7 @@ const Navigation = () => {
               <span>733 060 191</span>
             </a>
             <a
-              href="https://wolt.com/"
+              href="https://wolt.com/pl/pol/warsaw/venue/pracownia-kwiatw-i-balonw-mio"
               className="inline-flex items-center px-4 py-2 bg-pink-500 hover:bg-pink-600 text-white rounded-full transition-colors"
             >
               <span>Zamów teraz</span>
