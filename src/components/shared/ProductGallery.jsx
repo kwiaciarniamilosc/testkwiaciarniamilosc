@@ -48,39 +48,40 @@ const products = [
 
 const ProductGallery = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-playfair font-bold text-gray-900 mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-playfair font-bold text-gray-900 mb-3 sm:mb-4">
             Nasze Bukiety
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-base sm:text-lg text-gray-600">
             Wybierz spośród naszych najpiękniejszych kompozycji
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {products.map((product) => (
             <div 
               key={product.id} 
               className="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-shadow"
             >
-              <div className="aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden">
+              <div className="aspect-w-1 aspect-h-1 bg-gray-200">
                 <img
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
               </div>
               
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-xl font-semibold text-gray-900">{product.name}</h3>
-                  <span className="text-lg font-medium text-pink-500">{product.price}</span>
+                  <h3 className="text-lg sm:text-xl font-semibold text-gray-900">{product.name}</h3>
+                  <span className="text-base sm:text-lg font-medium text-pink-500">{product.price}</span>
                 </div>
-                <p className="text-gray-600 mb-4">{product.description}</p>
+                <p className="text-sm sm:text-base text-gray-600 mb-4">{product.description}</p>
                 <button
-                  className="inline-flex items-center text-pink-500 hover:text-pink-600 transition-colors"
+                  className="inline-flex items-center text-pink-500 hover:text-pink-600 transition-colors text-sm sm:text-base"
                   onClick={() => window.location.href = 'https://wolt.com/pl/pol/warsaw/venue/pracownia-kwiatw-i-balonw-mio'}
                 >
                   Zamów teraz

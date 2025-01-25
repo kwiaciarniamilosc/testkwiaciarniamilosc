@@ -1,16 +1,16 @@
-// src/components/shared/Layout.jsx
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
 const Layout = () => {
-  console.log('Layout rendering'); // Add this for debugging
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <Navigation />
-      <main className="flex-grow">
-        <Outlet />
+      <main className="flex-grow w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-20">
+          <Outlet />
+        </div>
       </main>
       <Footer />
     </div>
