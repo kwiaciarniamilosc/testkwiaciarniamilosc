@@ -29,7 +29,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src="src/assets/images/logo/logo.png" alt="Kwiaciarnia Miłość" className="h-12 w-auto" /> {/*header part logo */}
+            <img src="/assets/images/logo/logo.png" alt="Kwiaciarnia Miłość" className="h-12 w-auto" /> {/*header part logo */}
           </Link>
 
           {/* Desktop Navigation */}

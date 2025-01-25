@@ -11,7 +11,7 @@ const Home = () => {
       <header className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 bg-black/50" />
         <img
-          src="src/assets/images/hero/hero-main.jpeg"          alt="Hero Background"
+          src="/assets/images/hero/hero-main.jpeg"          alt="Hero Background"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
@@ -61,9 +61,9 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Bukiety Ślubne",
-                description: "Wyjątkowe kompozycje na Twoją szczególną okazję.",
-                image: imageService.getImage('gallery').roseLife // Replace with the actual image path for 'flower3')
+                title: "Bukiety azad",
+                description: "Wyjątkowe kompozycje na Twoją szczególną okazję.azad",
+                image: imageService.getImage("gallery").roseLife,
               },
               {
                 title: "Dekoracje Eventowe",
@@ -111,17 +111,17 @@ const Home = () => {
               {
                 name: "Justyna Gacek",
                 review: "Mial być delikatny bukiet, wyszło super, bardzo miła obsługa. Stosunkowo długo otwarte jak na kwiaciarnię.",
-                image: "src/assets/images/reviewer/justina.png"
+                image: "/assets/images/reviewer/justina.png"
               },
               {
                 name: "Juelli Meshram",
                 review: "Kwiaciarnia Miłość is my go-to flower shop in Warsaw! The flowers are always fresh, beautifully arranged, and exactly what I need. The staff is incredibly friendly and always ready to help with suggestions. Whether it’s for a special occasion or just a thoughtful gift, this florist never disappoints. Highly recommend it!",
-                image: "src/assets/images/reviewer/jui.png"
+                image: "/assets/images/reviewer/jui.png"
               },
               {
                 name: "Melissa Gavroche",
                 review: "Zakupiłam paczkę niespodziankę na Foodsi, nastawiałam się że dostanę już podwiętniete kwiatki w szarym papierze. Tymczasem dostałam przepiękny bukiet z pieknymi kwiatami! Będę zdecydowanie wracać w to miejsce!.",
-                image: "src/assets/images/reviewer/melissa.png"
+                image: "/assets/images/reviewer/melissa.png"
               }
             ].map((review, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-lg">

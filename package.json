@@ -6,6 +6,7 @@
     "homepage": "https://kwiaciarniamilosc.github.io/testkwiaciarniamilosc.pl",
     "scripts": {
         "predeploy": "npm run build",
+        "dev": "vite",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "deploy": "gh-pages -d dist",
         "build": "vite build",

@@ -1,13 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
-  base: '/testkwiaciarniamilosc.pl/', // Ensure this matches your repository name
+  base: '/testkwiaciarniamilosc.pl/', // Update to match your GitHub Pages repo name
 });
