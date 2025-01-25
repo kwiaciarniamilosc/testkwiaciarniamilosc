@@ -1,6 +1,5 @@
-// src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter
 import Layout from './components/shared/Layout';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';

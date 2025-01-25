@@ -9,5 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/testkwiaciarniamilosc.pl/', // Ensure this matches your GitHub Pages repository name
+  base: '/testkwiaciarniamilosc.pl/', // Ensure this matches your repository name
 });
