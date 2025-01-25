@@ -4,46 +4,46 @@ import { ChevronRight } from 'lucide-react';
 const products = [
   {
     id: 1,
-    name: 'Bukiet Różowy Sen',
-    description: 'Elegancka kompozycja z róż i eustomy',
-    price: '199 zł',
-    image: 'src/assets/images/gallery/flowers3.jpg'
-  },
-  {
-    id: 2,
-    name: 'Białe Inspiracje',
-    description: 'Delikatny bukiet z białych kwiatów',
-    price: '179 zł',
-    image: 'src/assets/images/gallery/IMG_4596.jpg'
-  },
-  {
-    id: 3,
-    name: 'Polne Kwiaty',
-    description: 'Naturalna kompozycja polnych kwiatów',
-    price: '149 zł',
-    image: 'src/assets/images/gallery/luksusowy-bukiet-roz-najlepsza-kwiaciarnia-warszawa-mokotow.jpg'
-  },
-  {
-    id: 4,
-    name: 'Bukiet Ślubny Classic',
-    description: 'Klasyczny bukiet ślubny z róż i piwonii',
-    price: '299 zł',
-    image: 'src/assets/images/gallery/kwiaciarnia-milosc-pulawska-38.jpg'
-  },
-  {
-    id: 5,
-    name: 'Wiosenna Świeżość',
-    description: 'Kolorowa mieszanka kwiatów sezonowych',
-    price: '169 zł',
-    image: 'src/assets/images/gallery/IMG_5425.jpg'
-  },
-  {
-    id: 6,
-    name: 'Romantyczny Wieczór',
-    description: 'Czerwone róże z dekoracyjną zieleną',
-    price: '229 zł',
-    image: 'src/assets/images/gallery/flowers3.jpg'
-  }
+   name: 'Bukiet Różowy Sen',
+   description: 'Elegancka kompozycja z róż i eustomy',
+   price: '199 zł',
+   image: `${import.meta.env.BASE_URL}assets/images/gallery/flowers3.jpg`
+ },
+ {
+   id: 2,
+   name: 'Białe Inspiracje', 
+   description: 'Delikatny bukiet z białych kwiatów',
+   price: '179 zł',
+   image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_4596.jpg`
+ },
+ {
+   id: 3,
+   name: 'Polne Kwiaty',
+   description: 'Naturalna kompozycja polnych kwiatów',
+   price: '149 zł',
+   image: `${import.meta.env.BASE_URL}assets/images/gallery/luksusowy-bukiet-roz-najlepsza-kwiaciarnia-warszawa-mokotow.jpg`
+ },
+ {
+   id: 4,
+   name: 'Bukiet Ślubny Classic',
+   description: 'Klasyczny bukiet ślubny z róż i piwonii',
+   price: '299 zł', 
+   image: `${import.meta.env.BASE_URL}assets/images/gallery/kwiaciarnia-milosc-pulawska-38.jpg`
+ },
+ {
+   id: 5,
+   name: 'Wiosenna Świeżość',
+   description: 'Kolorowa mieszanka kwiatów sezonowych',
+   price: '169 zł',
+   image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5425.jpg`
+ },
+ {
+   id: 6,
+   name: 'Romantyczny Wieczór',
+   description: 'Czerwone róże z dekoracyjną zieleną',
+   price: '229 zł',
+   image: `${import.meta.env.BASE_URL}assets/images/gallery/flowers3.jpg`
+ }
 ];
 
 const ProductGallery = () => {

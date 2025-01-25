@@ -17,7 +17,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img
-              src="src/assets/images/gallery/Nasze-wnętrze-onas.jpg" //about page photo (O nas)
+              src={`${import.meta.env.BASE_URL}assets/images/gallery/Nasze-wnętrze-onas.jpg`}//about page photo (O nas)
               alt="Nasze wnętrze"
               className="rounded-lg shadow-lg"
             />

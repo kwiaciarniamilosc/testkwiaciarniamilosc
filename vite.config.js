@@ -3,5 +3,13 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/testkwiaciarniamilosc.pl/', // Update to match your GitHub Pages repo name
+  base: '/testkwiaciarniamilosc.pl/',
+  build: {
+    assetsDir: 'assets',
+    rollupOptions: {
+      input: {
+        main: './index.html',
+      },
+    },
+  },
 });

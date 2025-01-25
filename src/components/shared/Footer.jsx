@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <img
-              src="src/assets/images/logo/logo.png"
+              src={`${import.meta.env.BASE_URL}/assets/images/logo/logo.png`}
               alt="Kwiaciarnia Miłość"
               className="h-12 w-auto mb-4"
             />

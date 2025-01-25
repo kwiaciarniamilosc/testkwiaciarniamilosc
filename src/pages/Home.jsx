@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Clock, MapPin, Leaf, ChevronRight } from 'lucide-react';
 import Newsletter from '../components/shared/Newsletter';
 import imageService from '../services/imageService';
+import ProductGallery from '../components/shared/ProductGallery';
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <header className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 bg-black/50" />
         <img
-          src="/assets/images/hero/hero-main.jpeg"          alt="Hero Background"
+         src={`${import.meta.env.BASE_URL}assets/images/hero/hero-main.jpeg`}
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
@@ -51,7 +52,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-
       {/* Services Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -61,21 +61,20 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Bukiety azad",
-                description: "Wyjątkowe kompozycje na Twoją szczególną okazję.azad",
-                image: imageService.getImage("gallery").roseLife,
+                title: "Bukiety",
+                description: "Wyjątkowe kompozycje na Twoją szczególną okazję",
+                image: `${import.meta.env.BASE_URL}assets/images/gallery/flowers5.jpg`,
               },
               {
                 title: "Dekoracje Eventowe",
-                description: "Profesjonalne dekoracje na każde wydarzenie.",
-                image: imageService.getImage('gallery').redRosesSymbol2 // Re
+                description: "Profesjonalne dekoracje na każde wydarzenie",
+                image: `${import.meta.env.BASE_URL}assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG`,
               },
               {
                 title: "Bukiety Okolicznościowe",
-                description: "Piękne bukiety na każdą okazję.",
-                image: imageService.getImage('gallery').redRosesSymbol4 //
-              }
-            ].map((service, index) => (
+                description: "Piękne bukiety na każdą okazję",
+                image: `${import.meta.env.BASE_URL}assets/images/gallery/jak-przedluzyc-zycie-roz.jpg`,
+              }            ].map((service, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden group">
                 <div className="aspect-w-16 aspect-h-9 overflow-hidden">
                   <img
@@ -99,6 +98,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* ProductGallery */}
+      <ProductGallery />
+      {/* Newsletter */}
+      <Newsletter />
 
       {/* Reviews Section */}
       <section className="bg-gray-50 py-20">
@@ -110,19 +113,19 @@ const Home = () => {
             {[
               {
                 name: "Justyna Gacek",
-                review: "Mial być delikatny bukiet, wyszło super, bardzo miła obsługa. Stosunkowo długo otwarte jak na kwiaciarnię.",
-                image: "/assets/images/reviewer/justina.png"
-              },
-              {
-                name: "Juelli Meshram",
-                review: "Kwiaciarnia Miłość is my go-to flower shop in Warsaw! The flowers are always fresh, beautifully arranged, and exactly what I need. The staff is incredibly friendly and always ready to help with suggestions. Whether it’s for a special occasion or just a thoughtful gift, this florist never disappoints. Highly recommend it!",
-                image: "/assets/images/reviewer/jui.png"
-              },
-              {
-                name: "Melissa Gavroche",
-                review: "Zakupiłam paczkę niespodziankę na Foodsi, nastawiałam się że dostanę już podwiętniete kwiatki w szarym papierze. Tymczasem dostałam przepiękny bukiet z pieknymi kwiatami! Będę zdecydowanie wracać w to miejsce!.",
-                image: "/assets/images/reviewer/melissa.png"
-              }
+               review: "Mial być delikatny bukiet, wyszło super, bardzo miła obsługa. Stosunkowo długo otwarte jak na kwiaciarnię.",
+               image: `${import.meta.env.BASE_URL}assets/images/reviewer/justina.png`
+             },
+             {
+               name: "Juelli Meshram",
+               review: "Kwiaciarnia Miłość is my go-to flower shop in Warsaw!...",
+               image: `${import.meta.env.BASE_URL}assets/images/reviewer/jui.png`
+             },
+             {
+               name: "Melissa Gavroche",
+               review: "Zakupiłam paczkę niespodziankę na Foodsi...",
+               image: `${import.meta.env.BASE_URL}assets/images/reviewer/melissa.png`
+             }
             ].map((review, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center mb-4">
@@ -146,8 +149,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* Newsletter */}
-      <Newsletter />
     </div>
   );
 };

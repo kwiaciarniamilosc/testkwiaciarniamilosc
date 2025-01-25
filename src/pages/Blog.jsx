@@ -13,12 +13,12 @@ const Blog = () => {
 
   const posts = [
     {
-      id: 1,
+        id: 1,
       title: "Kwiaty w domu: jak stworzyć atmosferę przytulności i harmonii",
       date: "21 stycznia 2025",
       category: "Psychologia i symbolika kwiatów",
       excerpt: "Kwiaty to nie tylko ozdoba domu, ale także źródło radości, przytulności i świeżości. Potrafią napełnić pokój życiem, podkreślić styl wnętrza, a nawet poprawić nastrój",
-      image: "src/assets/images/gallery/bouquet1.jpg"
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/bouquet1.jpg`
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const Blog = () => {
       date: "15 grudnia 2024",
       category: "Porady florysty",
       excerpt: "Poznaj sprawdzone sposoby na to, aby Twoje róże pozostały świeże i piękne przez długi czas.",
-      image: "src/assets/images/gallery/jak-przedluzyc-zycie-roz.jpg"
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/jak-przedluzyc-zycie-roz.jpg`
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const Blog = () => {
       date: "11 stycznia 2025",
       category: "Dekoracje Ślubne",
       excerpt: "Chryzantemy i krokosz to prawdziwa ozdoba każdego domu! Aby te kwiaty dłużej cieszyły świeżością",
-      image: "src/assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG"
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG`
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const Blog = () => {
       date: "17 styczeń 2025",
       category: "Kwiaty sezonowe",
       excerpt: "Poznaj piękno i wyrafinowanie naszego specjalnego zimowego FlowerBoxa, który łączy żywe czerwone róże z świeżym eukaliptusem — doskonały prezent na każdą okazję.",
-      image: "src/assets/images/gallery/Odkryj-red-roses.JPG"
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/Odkryj-red-roses.JPG`
     }
   ];
 

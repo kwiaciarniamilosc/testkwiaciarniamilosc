@@ -11,7 +11,7 @@ const Gallery = () => {
 
   return (
     <main>
-      {/* Hero section for Gallery */}
+      {/* Hero section */}
       <div className="relative pt-16 pb-12 flex content-center items-center justify-center min-h-[40vh]">
         <div className="absolute top-0 w-full h-full bg-center bg-cover bg-gradient-to-r from-pink-500 to-purple-500">
           <span className="w-full h-full absolute opacity-50 bg-black"></span>
@@ -60,7 +60,7 @@ const Gallery = () => {
               >
                 <div className="aspect-w-4 aspect-h-3 overflow-hidden rounded-lg bg-gray-100">
                   <img
-                    src={item.image}
+                    src={`${import.meta.env.BASE_URL}${item.image.replace(/^\//, '')}`}
                     alt={item.title}
                     className="object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -84,7 +84,7 @@ const Gallery = () => {
         >
           <div className="max-w-4xl w-full">
             <img
-              src={selectedImage.image}
+              src={`${import.meta.env.BASE_URL}${selectedImage.image.replace(/^\//, '')}`}
               alt={selectedImage.title}
               className="w-full h-auto rounded-lg"
             />
