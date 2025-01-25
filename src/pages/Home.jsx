@@ -11,7 +11,7 @@ const Home = () => {
       <header className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 bg-black/50" />
         <img
-          src="/src/assets/images/hero/hero-main.jpeg"          alt="Hero Background"
+          src="src/assets/images/hero/hero-main.jpeg"          alt="Hero Background"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
