@@ -16,6 +16,7 @@ export default {
       },
       fontFamily: {
         'playfair': ['Playfair Display', 'serif'],
+        'excenta': ['ExcentraPro-Light', 'sans-serif'],
       },
       colors: {
         pink: {

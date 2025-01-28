@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'ExcentraPro-Light';
+  src: url('/fonts/ExcentraPro-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +15,7 @@ html {
 }
 
 body {
-  @apply antialiased text-gray-900;
+  @apply antialiased text-gray-900 font-excenta;
 }
 
 .container {
