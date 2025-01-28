@@ -19,7 +19,7 @@ const Gallery = () => {
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
             <div className="w-full px-4 ml-auto mr-auto text-center">
-              <h1 className="text-white font-playfair font-bold text-4xl md:text-5xl">
+              <h1 className="text-white   font-bold text-4xl md:text-5xl">
                 Nasza Galeria
               </h1>
               <p className="mt-4 text-lg text-gray-200">

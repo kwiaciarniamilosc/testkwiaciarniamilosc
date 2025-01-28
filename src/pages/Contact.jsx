@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <div className="pt-20 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-playfair font-bold text-center mb-12">
+        <h1 className="text-4xl   font-bold text-center mb-12">
           Kontakt
         </h1>
 
@@ -26,7 +26,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div>
             <div className="bg-white rounded-xl shadow-lg p-8">
-              <h2 className="text-2xl font-playfair font-bold mb-6">
+              <h2 className="text-2xl   font-bold mb-6">
                 Informacje Kontaktowe
               </h2>
               <div className="space-y-4">

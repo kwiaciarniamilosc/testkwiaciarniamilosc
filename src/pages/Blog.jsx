@@ -50,7 +50,7 @@ const Blog = () => {
     <div className="min-h-screen bg-gray-50 pt-20 pb-12">
       {/* Header */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
-        <h1 className="text-4xl font-playfair font-bold mb-4">Blog Kwiatowy</h1>
+        <h1 className="text-4xl   font-bold mb-4">Blog Kwiatowy</h1>
         <p className="text-gray-600">
           Odkryj świat kwiatów, poznaj najnowsze trendy florystyczne i znajdź inspirację 
           do tworzenia własnych kompozycji kwiatowych. Wskazówki dotyczące pielęgnacji, 
