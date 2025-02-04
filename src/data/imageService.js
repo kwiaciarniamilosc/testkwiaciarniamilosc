@@ -27,7 +27,8 @@ const imageMap = {
     flowers3: `${import.meta.env.BASE_URL}assets/images/gallery/flowers3.jpg`,
     redRosesSymbol4: `${import.meta.env.BASE_URL}assets/images/gallery/bouquet2.jpg`,
     kwiaciarniaMilosc: `${import.meta.env.BASE_URL}assets/images/gallery/kwiaciarnia-milosc-pulawska-38.jpg`,
-    bouquetLife: `${import.meta.env.BASE_URL}assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG`
+    bouquetLife: `${import.meta.env.BASE_URL}assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG`,
+    newborn:`${import.meta.env.BASE_URL}assets/images/gallery/newborn.jpg`
   },
   reviewer: [
     `${import.meta.env.BASE_URL}assets/images/reviewer/reviewer-1.png`,

@@ -7,43 +7,92 @@ const products = [
    name: 'Bukiet Różowy Sen',
    description: 'Elegancka kompozycja z róż i eustomy',
    price: '199 zł',
-   image: `${import.meta.env.BASE_URL}assets/images/gallery/flowers3.jpg`
+   image: `${import.meta.env.BASE_URL}src/assets/images/gallery/blog6.jpg`
  },
  {
    id: 2,
    name: 'Białe Inspiracje', 
    description: 'Delikatny bukiet z białych kwiatów',
    price: '179 zł',
-   image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_4596.jpg`
+   image: `${import.meta.env.BASE_URL}src/assets/images/gallery/white.JPG`
  },
  {
    id: 3,
    name: 'Polne Kwiaty',
    description: 'Naturalna kompozycja polnych kwiatów',
-   price: '149 zł',
-   image: `${import.meta.env.BASE_URL}assets/images/gallery/luksusowy-bukiet-roz-najlepsza-kwiaciarnia-warszawa-mokotow.jpg`
+   price: '250 zł',
+   image: `${import.meta.env.BASE_URL}src/assets/images/gallery/wild.jpg`
  },
  {
    id: 4,
    name: 'Bukiet Ślubny Classic',
    description: 'Klasyczny bukiet ślubny z róż i piwonii',
-   price: '299 zł', 
-   image: `${import.meta.env.BASE_URL}assets/images/gallery/kwiaciarnia-milosc-pulawska-38.jpg`
+   price: '200 zł', 
+   image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_5425.jpg`
  },
  {
    id: 5,
    name: 'Wiosenna Świeżość',
    description: 'Kolorowa mieszanka kwiatów sezonowych',
    price: '169 zł',
-   image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5425.jpg`
+   image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_8525.JPG`
  },
  {
    id: 6,
    name: 'Romantyczny Wieczór',
    description: 'Czerwone róże z dekoracyjną zieleną',
-   price: '229 zł',
+   price: '500 zł',
    image: `${import.meta.env.BASE_URL}assets/images/gallery/flowers3.jpg`
- }
+ },
+ {
+  id: 7,
+  name: 'Florystyka pogrzebowa',
+  description: 'Czerwone róże z dekoracyjną zieleną',
+  price: '1300zl',
+  image: `${import.meta.env.BASE_URL}assets/images/gallery/Kwiaciarnia Miłość Puławska 3.jpg`
+},
+{
+  id: 8,
+  name: 'Prague',
+  description: 'The bouquet consists of hydrangea, twig rose, eustoma, alstroemeria and carnation.',
+  price: '160-300 zł ',
+  image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_5272.PNG`
+},
+{
+ id: 9,
+ name: 'Capri',
+ description: 'Bukiet składa się z hortensji, gałązkowych róż w trzech kolorach oraz frezji w zależności od ilości użytych kwiatów.',
+ price: '250–600 zł,',
+ image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_5271.PNG`
+},
+{
+  id: 10,
+  name: 'Raspberry Kiss',
+  description: 'Bukiet składa się wyłącznie z gałązkowych róż',
+  price: '200–600 zl',
+  image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_5270.PNG`
+},
+{
+  id: 11,
+  name: 'San Francisco',
+  description: 'Bukiet składa się z hortensji, róż gałązkowych i klasycznych, eustomy oraz oxypetalum',
+  price: ' 200–400 zł',
+  image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_5274.PNG`
+},
+{
+ id: 12,
+ name: 'Verona',
+ description: 'Bukiet składa się z róż gałązkowych i klasycznych, eustomy, alstromerii oraz goździków.',
+ price: '150–400 zł zł,',
+ image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_2761.JPG`
+},
+{
+  id: 13,
+  name: 'Seville',
+  description: 'Bukiet składa się z róż gałązkowych i klasycznych, eustomy oraz eukaliptusa',
+  price: ' 250-700 zł',
+  image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_5286.PNG`
+}
 ];
 
 const ProductGallery = () => {

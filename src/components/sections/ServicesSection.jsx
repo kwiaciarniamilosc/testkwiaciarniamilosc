@@ -15,10 +15,25 @@ const ServicesSection = () => {
       image: `${import.meta.env.BASE_URL}assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG`,
     },
     {
-      title: "Bukiety Okolicznościowe",
+      title: "Florystyka pogrzebowa",
+      description: "W trudnych chwilach pożegnania pomagamy wyrazić pamięć i szacunek poprzez eleganckie, dostojne kompozycje kwiatowe.",
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/Kwiaciarnia Miłość Puławska 3.jpg`,
+    },
+    {
+      title: "Flower boxy",
       description: "Piękne bukiety na każdą okazję",
       image: `${import.meta.env.BASE_URL}assets/images/gallery/jak-przedluzyc-zycie-roz.jpg`,
-    }
+    },
+    {
+      title: "Balony",
+      description: "Zestaw balonów dla noworodka",
+      image: `${import.meta.env.BASE_URL}src/assets/images/gallery/newborn.jpg`,
+    },
+    {
+      title: "Florystyka weselna",
+      description: "eleganckie bukiety ślubne",
+      image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_7265.JPG`,
+    },
   ];
 
   return (

@@ -2,7 +2,8 @@ export const categories = [
   { id: 'all', name: 'Wszystkie' },
   { id: 'bouquets', name: 'Bukiety' },
   { id: 'weddings', name: 'Śluby' },
-  { id: 'events', name: 'Wydarzenia' }
+  { id: 'events', name: 'Wydarzenia' },
+  { id: 'flowerbox', name: 'pudełko na kwiaty' }
  ];
  
  export const galleryItems = [
@@ -18,7 +19,7 @@ export const categories = [
     title: 'Dekoracja Ślubna', 
     description: 'Dekoracja sali weselnej',
     category: 'weddings',
-    image: '/assets/images/gallery/IMG_4596.jpg'
+    image: '/assets/images/gallery/IMG_5425.jpg'
   },
   {
     id: 3,
@@ -36,23 +37,44 @@ export const categories = [
   },
   {
     id: 5,
-    title: 'Bukiet Ślubny',
+    title: 'Balony dla noworodka',
     description: 'Klasyczny bukiet na wyjątkowy dzień',
-    category: 'weddings',
-    image: '/assets/images/gallery/bouquet1.jpg'
+    category: 'newborns',
+    image: '/src/assets/images/gallery/newborn.jpg'
   },
   {
     id: 6,
     title: 'Dekoracje Eventowe',
     description: 'Profesjonalne dekoracje na każde wydarzenie',
     category: 'events',
-    image: '/assets/images/gallery/flowers3.jpg'
+    image: '/assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG'
   },
   {
     id: 7,
     title: 'Kwiaty na Specjalne Okazje',
     description: 'Wyjątkowe kompozycje na każdą okazję',
     category: 'events',
-    image: '/assets/images/gallery/flowers4.jpg'
+    image: '/assets/images/gallery/hero-cover.jpg'
+  },
+  {
+    id: 8,
+    title: 'Kwiaty na Specjalne Okazje',
+    description: 'Wyjątkowe kompozycje na każdą okazję',
+    category: 'events',
+    image: '/assets/images/gallery/IMG_5425.jpg'
+  },
+  {
+    id: 9,
+    title: 'Kwiaty na flowerbox',
+    description: 'Wyjątkowe kompozycje na każdą okazję',
+    category: 'events',
+    image: '/assets/images/gallery/bouquet4.jpg'
+  },
+  {
+    id: 10,
+    title: 'Kwiaty na flowerbox',
+    description: 'Wyjątkowe kompozycje na każdą okazję',
+    category: 'flowerbox',
+    image: '/src/assets/images/gallery/product.png'
   }
- ];
+];

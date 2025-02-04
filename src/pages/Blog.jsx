@@ -18,7 +18,7 @@ const Blog = () => {
       date: "21 stycznia 2025",
       category: "Psychologia i symbolika kwiatów",
       excerpt: "Kwiaty to nie tylko ozdoba domu, ale także źródło radości, przytulności i świeżości. Potrafią napełnić pokój życiem, podkreślić styl wnętrza, a nawet poprawić nastrój",
-      image: `${import.meta.env.BASE_URL}assets/images/gallery/bouquet1.jpg`
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/hero-cover.jpg`
     },
     {
       id: 2,
@@ -43,6 +43,22 @@ const Blog = () => {
       category: "Kwiaty sezonowe",
       excerpt: "Poznaj piękno i wyrafinowanie naszego specjalnego zimowego FlowerBoxa, który łączy żywe czerwone róże z świeżym eukaliptusem — doskonały prezent na każdą okazję.",
       image: `${import.meta.env.BASE_URL}assets/images/gallery/Odkryj-red-roses.JPG`
+    },
+    {
+      id: 5,
+      title: "Oto symbole miłości, namiętności i elegancji",
+      date: " 18 stycznia 2025",
+      category: "Pomysły na prezenty",
+      excerpt: "Czerwone róże to klasyka wśród kwiatów, która od wieków cieszy się niezmienną popularnością. Stały się symbolem namiętności, .",
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/bouquet2.jpg`
+    },
+     {
+      id: 6,
+      title: "Emocje, które dają kwiaty: radość, miłość i magia chwili.",
+      date: "24 stycznia 2025",
+      category: "Kwiaty do domu i biura",
+      excerpt: "Emocje, które dają kwiaty: radość, miłość i magia chwili,Co może być piękniejszego niż moment, w którym ktoś wręcza kwiaty?.",
+      image: `${import.meta.env.BASE_URL}src/assets/images/gallery/blog5.jpg`
     }
   ];
 
