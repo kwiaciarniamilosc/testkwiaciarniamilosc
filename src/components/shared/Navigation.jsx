@@ -40,6 +40,7 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
+            <NavLink to="/">Home</NavLink>
             <NavLink to="/o-nas">O nas</NavLink>
             <NavLink to="/blog">Blog</NavLink>
             <NavLink to="/galeria">Galeria</NavLink>

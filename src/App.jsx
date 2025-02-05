@@ -1,9 +1,10 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/shared/Layout';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
-import Blog from './pages/Blog';
+import BlogIndex from './pages/Blog/index';
+import BlogDetail from './pages/Blog/Detail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -14,7 +15,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="galeria" element={<Gallery />} />
-          <Route path="blog" element={<Blog />} />
+          <Route path="blog" element={<BlogIndex />} />
+          <Route path="blog/:postId" element={<BlogDetail />} />
           <Route path="o-nas" element={<About />} />
           <Route path="kontakt" element={<Contact />} />
         </Route>

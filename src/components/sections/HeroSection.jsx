@@ -12,16 +12,34 @@ const HeroSection = () => {
       alt: "Kwiaciarnia Miłość - bukiety kwiatów"
     },
     {
-      url: `${import.meta.env.BASE_URL}assets/images/gallery/flowers5.jpg`,
+      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main1.JPEG`,
       title: "Wyjątkowe kompozycje",
       subtitle: "na każdą okazję",
       alt: "Wyjątkowe kompozycje kwiatowe"
     },
     {
-      url: `${import.meta.env.BASE_URL}assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG`,
-      title: "Dekoracje eventowe",
-      subtitle: "profesjonalna obsługa",
-      alt: "Dekoracje eventowe i bukiety"
+      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main2.JPEG`,
+      title: "Kwiaty dla firm",
+      subtitle: "Zamówienia korporacyjne",
+      alt: "Kwiaty dla firm"
+    },
+    {
+      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main3.JPEG`,
+      title: "Najpiękniejsze kwiaty",
+      subtitle: "z serca Warszawy",
+      alt: "Kwiaciarnia Miłość - bukiety kwiatów"
+    },
+    {
+      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main4.JPEG`,
+      title: "Wyjątkowe kompozycje",
+      subtitle: "na każdą okazję",
+      alt: "Wyjątkowe kompozycje kwiatowe"
+    },
+    {
+      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main5.JPEG`,
+      title: "Kwiaty dla firm",
+      subtitle: "Zamówienia korporacyjne",
+      alt: "Kwiaty dla firm"
     }
   ];
 
@@ -125,6 +143,7 @@ const HeroSection = () => {
       <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 z-10">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
           {heroImages[currentImageIndex].title}{' '}
+          <br />
           <span className="text-pink-500">{heroImages[currentImageIndex].subtitle}</span>
         </h1>
         <p className="text-lg sm:text-xl text-white mb-8 drop-shadow-lg font-medium">
