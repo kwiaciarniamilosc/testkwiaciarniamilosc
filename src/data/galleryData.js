@@ -3,7 +3,8 @@ export const categories = [
   { id: 'bouquets', name: 'Bukiety' },
   { id: 'weddings', name: 'Śluby' },
   { id: 'events', name: 'Wydarzenia' },
-  { id: 'flowerbox', name: 'pudełko na kwiaty' }
+  { id: 'flowerbox', name: 'pudełko na kwiaty' },
+  { id: 'funeral', name: 'pogrzebowa' }
  ];
  
  export const galleryItems = [
@@ -37,22 +38,22 @@ export const categories = [
   },
   {
     id: 5,
-    title: 'Balony dla noworodka',
+    title: 'Balony na narodziny dziewczynki',
     description: 'Klasyczny bukiet na wyjątkowy dzień',
     category: 'newborns',
     image: '/assets/images/gallery/newborn.jpg'
   },
   {
     id: 6,
-    title: 'Dekoracje Eventowe',
-    description: 'Profesjonalne dekoracje na każde wydarzenie',
-    category: 'events',
-    image: '/assets/images/gallery/Jak-przedłużyć-życie-bukietu.JPG'
+    title: 'Kwiaty na flowerbox',
+    description: 'Wyjątkowe kompozycje na każdą okazję',
+    category: 'flowerbox',
+    image: '/assets/images/gallery/product.png'
   },
   {
     id: 7,
     title: 'Kwiaty na Specjalne Okazje',
-    description: 'Wyjątkowe kompozycje na każdą okazję',
+    description: ' ',
     category: 'events',
     image: '/assets/images/gallery/hero-cover.jpg'
   },
@@ -66,15 +67,36 @@ export const categories = [
   {
     id: 9,
     title: 'Kwiaty na flowerbox',
-    description: 'Wyjątkowe kompozycje na każdą okazję',
+    description: 'Flower Box z kwiatami na wyjątkowe chwile',
     category: 'events',
     image: '/assets/images/gallery/bouquet4.jpg'
   },
   {
     id: 10,
-    title: 'Kwiaty na flowerbox',
-    description: 'Wyjątkowe kompozycje na każdą okazję',
-    category: 'flowerbox',
-    image: '/assets/images/gallery/product.png'
+    title: 'Wieniec żałobny "Z miłością',
+    description: 'Szerokość wianka - 90 cm Aby złożyć zamówienie zadzwoń do nas +48 733 060 191',
+    category: 'funeral',
+    image: '/assets/images/gallery/IMG_4749.jpg'
+  },
+  {
+    id: 11,
+    title: 'Pamiętamy',
+    description: 'Szerokość wianka - 90 cm Aby złożyć zamówienie zadzwoń do nas +48 733 060 191',
+    category: 'funeral',
+    image: '/assets/images/gallery/IMG_4743.jpg'
+  },
+  {
+    id: 12,
+    title: 'W żałobie',
+    description: 'Wiązanka pogrzebowy z czerwonymi różami',
+    category: 'funeral',
+    image: '/assets/images/gallery/IMG_1527.jpg'
+  },
+  {
+    id: 13,
+    title: 'W żałobie',
+    description: 'Wiązanka pogrzebowy z z mieszanych kwiatów',
+    category: 'funeral',
+    image: '/assets/images/gallery/IMG_1999.jpg'
   }
 ];

@@ -17,7 +17,7 @@ const ServicesSection = () => {
     {
       title: "Florystyka pogrzebowa",
       description: "W trudnych chwilach pożegnania pomagamy wyrazić pamięć i szacunek poprzez eleganckie, dostojne kompozycje kwiatowe.",
-      image: `${import.meta.env.BASE_URL}assets/images/gallery/Kwiaciarnia Miłość Puławska 3.jpg`,
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_4749.jpg`,
     },
     {
       title: "Flower boxy",
