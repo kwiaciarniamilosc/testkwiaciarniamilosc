@@ -40,7 +40,7 @@ export const categories = [
     title: 'Balony dla noworodka',
     description: 'Klasyczny bukiet na wyjątkowy dzień',
     category: 'newborns',
-    image: '/src/assets/images/gallery/newborn.jpg'
+    image: '/assets/images/gallery/newborn.jpg'
   },
   {
     id: 6,
@@ -75,6 +75,6 @@ export const categories = [
     title: 'Kwiaty na flowerbox',
     description: 'Wyjątkowe kompozycje na każdą okazję',
     category: 'flowerbox',
-    image: '/src/assets/images/gallery/product.png'
+    image: '/assets/images/gallery/product.png'
   }
 ];

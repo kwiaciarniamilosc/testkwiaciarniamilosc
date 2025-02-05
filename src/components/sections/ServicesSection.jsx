@@ -27,12 +27,12 @@ const ServicesSection = () => {
     {
       title: "Balony",
       description: "Zestaw balonów dla noworodka",
-      image: `${import.meta.env.BASE_URL}src/assets/images/gallery/newborn.jpg`,
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/newborn.jpg`,
     },
     {
       title: "Florystyka weselna",
       description: "eleganckie bukiety ślubne",
-      image: `${import.meta.env.BASE_URL}src/assets/images/gallery/IMG_7265.JPG`,
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_7265.JPG`,
     },
   ];
 
