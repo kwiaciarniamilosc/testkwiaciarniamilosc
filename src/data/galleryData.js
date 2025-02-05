@@ -9,29 +9,29 @@ export const categories = [
  export const galleryItems = [
   {
     id: 1,
-    title: 'Bukiet Wiosenny',
-    description: 'Kompozycja wiosenna z tulipanów i róż',
+    title: 'Passion',
+    description: 'Bukiet 61 róż',
     category: 'bouquets',
     image: '/assets/images/gallery/flowers5.jpg'
   },
   {
     id: 2,
-    title: 'Dekoracja Ślubna', 
-    description: 'Dekoracja sali weselnej',
+    title: 'Bukiet ślubny', 
+    description: 'Bukiet ślubny z róż peoniowych, piwonii i eukaliptusa',
     category: 'weddings',
     image: '/assets/images/gallery/IMG_5425.jpg'
   },
   {
     id: 3,
     title: 'Odkryj Red Roses',
-    description: 'Ekskluzywny bukiet czerwonych róż',
-    category: 'bouquets', 
+    description: 'FlowerBox z czerwonymi różami i eukaliptusem w aksamitnym pudełku',
+    category: 'flowerbox', 
     image: '/assets/images/gallery/Odkryj-red-roses.JPG'
   },
   {
     id: 4,
     title: 'Luksusowy Bukiet',
-    description: 'Najpiękniejsze róże z naszej kwiaciarni',
+    description: 'Luksusowy bukiet róż gałązkowych',
     category: 'bouquets',
     image: '/assets/images/gallery/luksusowy-bukiet-roz-najlepsza-kwiaciarnia-warszawa-mokotow.jpg'
   },
