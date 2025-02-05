@@ -9,7 +9,7 @@ export default defineConfig({
     markdownPreview(),
     compression({ algorithm: 'brotliCompress' })  // Enables Brotli compression
   ],
-  base: '/testkwiaciarniamilosc.pl/',
+  base: '/',
   build: {
     assetsDir: 'assets',
     rollupOptions: {

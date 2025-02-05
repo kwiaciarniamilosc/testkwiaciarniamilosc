@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://testkwiaciarniamilosc.pl",
+    "homepage": "https://www.kwiaciarniamilosc.pl/",
     "scripts": {
         "predeploy": "npm run build",
         "dev": "vite",
@@ -22,7 +22,6 @@
         "react-dom": "^18.2.0",
         "react-helmet-async": "^2.0.5",
         "react-router-dom": "^6.28.2",
-        "vite-plugin-compression": "^0.5.1",
         "vite-plugin-markdown": "^2.2.0"
     },
     "devDependencies": {
