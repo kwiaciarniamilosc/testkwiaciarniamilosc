@@ -32,7 +32,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
             <img 
-              src={`${import.meta.env.BASE_URL}/assets/images/logo/logo.png`} 
+              src={`/assets/images/logo/logo.png`} 
               alt="Kwiaciarnia Miłość" 
               className="h-8 sm:h-12 w-auto" 
             />
