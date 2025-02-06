@@ -6,7 +6,7 @@ import sitemap from 'vite-plugin-sitemap';
 import { VitePWA } from 'vite-plugin-pwa';
 
 // 🚀 Define Base URL
-const BASE_URL = 'https://www.kwiaciarniamilosc.pl';
+const BASE_URL = 'http://kwiaciarniamilosc.pl/';
 
 export default defineConfig({
   plugins: [
