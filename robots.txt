@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kwiaciarniamilosc.pl/sitemap.xml
+Sitemap: http://kwiaciarniamilosc.pl/sitemap.xml
