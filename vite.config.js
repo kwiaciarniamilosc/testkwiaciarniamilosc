@@ -4,29 +4,25 @@ import markdownPreview from 'vite-plugin-markdown-preview';
 import compression from 'vite-plugin-compression';
 import { VitePWA } from 'vite-plugin-pwa';
 
-// 🚀 Define Base URL
-
 export default defineConfig({
   plugins: [
     react(),
 
-    // 📝 Markdown Preview (You had this already)
+    // 📝 Markdown Preview
     markdownPreview(),
 
-
-    // 🔥 Gzip & Brotli Compression (Improves Speed & Performance)
+    // 🔥 Gzip & Brotli Compression
     compression({
-      algorithm: 'brotliCompress', // Brotli provides better compression than Gzip
+      algorithm: 'brotliCompress',
     }),
 
-    // 📱 Progressive Web App (PWA) for Offline Caching & Speed
+    // 📱 Progressive Web App (PWA)
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Kwiaciarnia Miłość',
         short_name: 'Kwiaciarnia',
         description: 'Najlepsza kwiaciarnia w Warszawie - Mokotów.',
-        start_url: '/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#ff3366',
@@ -34,23 +30,23 @@ export default defineConfig({
           {
             src: '/assets/images/logo/favicon.ico',
             sizes: '192x192',
-            type: 'image/png'
-          }
-        ]
-      }
+            type: 'image/png',
+          },
+        ],
+      },
     }),
   ],
-  
+
   // 🌐 Base URL
   base: '/',
 
   // 🏗️ Optimized Build Configuration
   build: {
     assetsDir: 'assets',
-    minify: 'terser', // Minifies JS & CSS for faster loading
+    minify: 'terser',
     rollupOptions: {
       input: {
-        main: './src/main.jsx', // ✅ Use `main.jsx` instead of `index.html`
+        main: './index.html', // ✅ Ensures index.html is built
       },
       output: {
         manualChunks(id) {
@@ -64,7 +60,7 @@ export default defineConfig({
 
   // 🌍 Define Server Configuration
   server: {
-    port: 3000, // Change if needed
-    open: true, // Opens browser on start
+    port: 3000,
+    open: true,
   },
 });
