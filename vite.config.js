@@ -2,11 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import markdownPreview from 'vite-plugin-markdown-preview';
 import compression from 'vite-plugin-compression';
-import sitemap from 'vite-plugin-sitemap';
 import { VitePWA } from 'vite-plugin-pwa';
 
 // 🚀 Define Base URL
-const BASE_URL = 'http://kwiaciarniamilosc.pl/';
 
 export default defineConfig({
   plugins: [
@@ -15,18 +13,6 @@ export default defineConfig({
     // 📝 Markdown Preview (You had this already)
     markdownPreview(),
 
-    // 🗺️ Sitemap & Robots.txt for SEO
-    sitemap({
-      hostname: BASE_URL,
-      readable: true, // Makes the sitemap more human-readable
-      generateRobotsTxt: true, // Auto-generates robots.txt
-      exclude: ['/private'], // Exclude any private pages
-      routes: async () => {
-        // Fetch dynamic blog posts from your `src/data/blog/posts.js`
-        const blogPosts = (await import('./src/data/blog/posts.js')).default;
-        return blogPosts.map(post => `/blog/${post.slug}`);
-      },
-    }),
 
     // 🔥 Gzip & Brotli Compression (Improves Speed & Performance)
     compression({
