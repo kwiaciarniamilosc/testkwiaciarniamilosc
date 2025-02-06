@@ -20,8 +20,13 @@ export default defineConfig({
       hostname: BASE_URL,
       readable: true, // Makes the sitemap more human-readable
       generateRobotsTxt: true, // Auto-generates robots.txt
+      exclude: ['/private'], // Exclude any private pages
+      routes: async () => {
+        // Fetch dynamic blog posts from your `src/data/blog/posts.js`
+        const blogPosts = (await import('./src/data/blog/posts.js')).default;
+        return blogPosts.map(post => `/blog/${post.slug}`);
+      },
     }),
-
 
     // 🔥 Gzip & Brotli Compression (Improves Speed & Performance)
     compression({
@@ -59,18 +64,9 @@ export default defineConfig({
     minify: 'terser', // Minifies JS & CSS for faster loading
     rollupOptions: {
       input: {
-        main: './index.html',
+        main: './src/main.jsx', // ✅ Use `main.jsx` instead of `index.html`
       },
       output: {
-/*************  ✨ Codeium Command ⭐  *************/
-        /**
-         * Rollup manual chunking to separate node_modules
-         * into separate chunks.
-         *
-         * @param {string} id - The ID of the module.
-         * @returns {string} The chunk name.
-         */
-/******  f3984fed-c4a4-46c7-bb50-1656ad5d3940  *******/
         manualChunks(id) {
           if (id.includes('node_modules')) {
             return id.split('node_modules/')[1].split('/')[0];
