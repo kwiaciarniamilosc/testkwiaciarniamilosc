@@ -164,9 +164,5 @@ import { ChevronRight, ChevronLeft, Heart } from 'lucide-react';
       </header>
     );
   };
-  
-<<<<<<< HEAD
-  export default HeroSection;
-=======
-  export default HeroSection;
->>>>>>> 4b69011498b2ad80e2bc6c9b73dbcb803f5bd939
+
+export default HeroSection;
