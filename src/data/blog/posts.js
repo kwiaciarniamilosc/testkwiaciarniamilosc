@@ -54,8 +54,17 @@ export const posts = [
     excerpt: "Emocje, które dają kwiaty: radość, miłość i magia chwili, Co może być piękniejszego niż moment, w którym ktoś wręcza kwiaty?",
     image: '/assets/images/gallery/blog5.jpg',
     contentFile: 'emocje-ktore-daja-kwiaty'
+  },
+  {
+    slug: 'Kwiaty-i-Walentynki:-jak-wybrac',
+    title: "Kwiaty i Walentynki: jak wybrać?.",
+    date: "14 lutego 2025",
+    category: "Kwiaty do domu i biura",
+    excerpt: "Kwiaty i Walentynki: jak wybrać? Walentynki to święto, kiedy uczucia rozkwitają, a kwiaty stają się najlepszymi ",
+    image: '/assets/images/gallery/IMG_5907.JPEG',
+    contentFile: 'Kwiaty-i-Walentynki:-jak-wybrac'
   }
- ];
+];
  
 
 export const categories = [

@@ -7,7 +7,7 @@ const ServicesSection = () => {
     {
       title: "Bukiety",
       description: "Wyjątkowe kompozycje na Twoją szczególną okazję",
-      image: `${import.meta.env.BASE_URL}assets/images/gallery/flowers5.jpg`,
+      image: `${import.meta.env.BASE_URL}assets/images/gallery/blog5.jpg`,
     },
     {
       title: "Dekoracje Eventowe",

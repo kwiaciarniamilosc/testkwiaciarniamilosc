@@ -3,12 +3,13 @@ import { useParams } from 'react-router-dom';
 import { posts } from '../../data/blog/posts';
 
 // Import all blog content files
-import kwiatyWDomuContent from '../../data/blog/content/kwiaty-w-domu';
-import jakPrzedluzycZycieRozContent from '../../data/blog/content/jak-przedluzyc-zycie-roz';
-import przedluzycZycieBukietuContent from '../../data/blog/content/przedluzyc-zycie-bukietu-chryzantemy';
-import elegancjaCzerwonychRozContent from '../../data/blog/content/elegancja-czerwonych-roz-eukaliptus';
-import symboleMilosciContent from '../../data/blog/content/symbole-milosci-namietnosci-elegancji';
-import emocjeKwiatyContent from '../../data/blog/content/emocje-ktore-daja-kwiaty';
+import kwiatyWDomuContent from '../../data/blog/content/kwiaty-w-domu.js';
+import jakPrzedluzycZycieRozContent from '../../data/blog/content/jak-przedluzyc-zycie-roz.js';
+import przedluzycZycieBukietuContent from '../../data/blog/content/przedluzyc-zycie-bukietu-chryzantemy.js';
+import elegancjaCzerwonychRozContent from '../../data/blog/content/elegancja-czerwonych-roz-eukaliptus.js';
+import symboleMilosciContent from '../../data/blog/content/symbole-milosci-namietnosci-elegancji.js';
+import emocjeKwiatyContent from '../../data/blog/content/emocje-ktore-daja-kwiaty.js';
+import kwiatyIWalentynkiContent from '../../data/blog/content/Kwiaty-i-Walentynki:-jak-wybrac.js';
 
 // Map content files to their respective routes
 const contentMap = {
@@ -18,17 +19,18 @@ const contentMap = {
   'elegancja-czerwonych-roz-eukaliptus': elegancjaCzerwonychRozContent,
   'symbole-milosci-namietnosci-elegancji': symboleMilosciContent,
   'emocje-ktore-daja-kwiaty': emocjeKwiatyContent,
+  'Kwiaty-i-Walentynki:-jak-wybrac': kwiatyIWalentynkiContent,
 };
 
 const BlogDetail = () => {
   const { postId } = useParams();
-  const post = posts.find(p => p.contentFile === postId);
+  const post = posts.find(p => p.contentFile.toLowerCase() === postId.toLowerCase().replace(/:/g, '-'));
 
   if (!post) {
     return <p>Post not found</p>;
   }
 
-  const postContent = contentMap[postId];
+  const postContent = contentMap[postId.toLowerCase().replace(/:/g, '-')];
 
   return (
     <div className="max-w-4xl mx-auto p-6">

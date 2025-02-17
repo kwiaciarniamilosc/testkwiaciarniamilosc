@@ -5,22 +5,22 @@ export const categories = [
   { id: 'events', name: 'Wydarzenia' },
   { id: 'flowerbox', name: 'pudełko na kwiaty' },
   { id: 'funeral', name: 'pogrzebowa' }
- ];
+];
  
- export const galleryItems = [
+export const galleryItems = [
   {
     id: 1,
     title: 'Passion',
     description: 'Bukiet 61 róż',
     category: 'bouquets',
-    image: '/assets/images/gallery/flowers5.jpg'
+    image: '/assets/images/gallery/flowers3.jpg'
   },
   {
     id: 2,
     title: 'Bukiet ślubny', 
     description: 'Bukiet ślubny z róż peoniowych, piwonii i eukaliptusa',
     category: 'weddings',
-    image: '/assets/images/gallery/IMG_5425.jpg'
+    image: '/assets/images/gallery/photo_2025-02-05_21-39-58.jpg'
   },
   {
     id: 3,
@@ -48,12 +48,12 @@ export const categories = [
     title: 'Kwiaty na flowerbox',
     description: 'Wyjątkowe kompozycje na każdą okazję',
     category: 'flowerbox',
-    image: '/assets/images/gallery/product.png'
+    image: '/assets/images/gallery/IMG_5555.JPEG.jpg'
   },
   {
     id: 7,
     title: 'Kwiaty na Specjalne Okazje',
-    description: ' ',
+    description: 'kwiaty na specjalne okazje',
     category: 'events',
     image: '/assets/images/gallery/hero-cover.jpg'
   },
@@ -62,7 +62,7 @@ export const categories = [
     title: 'Kwiaty na Specjalne Okazje',
     description: 'Wyjątkowe kompozycje na każdą okazję',
     category: 'events',
-    image: '/assets/images/gallery/IMG_5425.jpg'
+    image: '/assets/images/gallery/IMG_5907.JPEG'
   },
   {
     id: 9,
@@ -98,5 +98,48 @@ export const categories = [
     description: 'Wiązanka pogrzebowy z z mieszanych kwiatów',
     category: 'funeral',
     image: '/assets/images/gallery/IMG_1999.jpg'
+  },
+  {
+    id: 14,
+    title: 'walentynkowy bukiet',
+    description: ' order call us +48 733 060 191',
+    category: 'bouquets',
+    image: '/assets/images/gallery/IMG_6104 (2).JPG'
+  },
+  {
+    id: 15,
+    title: 'Różowe róże ',
+    description: 'wielokolorowy romantyczny gest na walentynki',
+    category: 'bouquets',
+    image: '/assets/images/gallery/IMG_6047.JPG'
+  },
+  {
+    id: 16,
+    title: 'wyjątkowy bukietsn',
+    description: 'Wyjątkowe kompozycje na każdą okazję',
+    category: 'bouquets',
+    image: '/assets/images/gallery/IMG_5317.JPG'
+  },
+  {
+    id: 17,
+    title: 'collection',
+    description: ' elegancki bukiet na wesele',
+    category: 'events',
+    image: '/assets/images/gallery/IMG_5562.JPEG.jpg'
+  },
+  {
+    id: 18,
+    title: 'Bukiet ślubny',
+    description: 'Wyjątkowe kompozycje na każdą okazję',
+    category: 'weddings',
+    image: '/assets/images/gallery/IMG_7265.JPG'
+  },
+  {
+    id: 19,
+    title: 'vibranium',
+    description: 'Klasyczny bukiet na wyjątkowy dzień',
+    category: 'bouquets',
+    image: '/assets/images/gallery/IMG_2153.JPG'
   }
+ 
 ];

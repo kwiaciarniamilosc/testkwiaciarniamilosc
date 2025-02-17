@@ -92,6 +92,34 @@ const products = [
   description: 'Bukiet składa się z róż gałązkowych i klasycznych, eustomy oraz eukaliptusa',
   price: ' 250-700 zł',
   image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5286.PNG`
+},
+{
+  id: 14,
+  name: 'Bouquet of roses',
+  description: 'Ten bukiet to idealne połączenie delikatności, elegancji i uczuć, które ',
+  price: ' 535zl',
+  image: `${import.meta.env.BASE_URL}assets/images/gallery/blog5.jpg`
+},
+{
+  id: 15,
+  name: 'special gift for someone',
+  description: 'Ten zapierający dech w piersiach bukiet to harmonijne połączenie elegancji ',
+  price: ' 800 zł',
+  image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5317.JPG`
+},
+{
+ id: 16,
+ name: 'róża i hortensja',
+ description: 'Ten uroczy bukiet łączy delikatne różowe róże z akcentami.',
+ price: '540 zł,',
+ image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5275.PNG`
+},
+{
+  id: 17,
+  name: 'walentynkowy bukiet',
+  description: 'Mówią o zachwycie, wdzięczności i najcieplejszych uczuciach. Idealny wybór na Walentynki,',
+  price: '500',
+  image: `${import.meta.env.BASE_URL}public/assets/images/gallery/IMG_5555.JPEG.jpg`
 }
 ];
 
@@ -114,7 +142,7 @@ const ProductGallery = () => {
               key={product.id} 
               className="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-shadow"
             >
-              <div className="aspect-w-1 aspect-h-1 bg-gray-200">
+              <div className="aspect-square bg-gray-200">
                 <img
                   src={product.image}
                   alt={product.name}
