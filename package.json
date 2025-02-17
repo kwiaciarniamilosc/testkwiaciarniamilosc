@@ -15,6 +15,8 @@
     "dependencies": {
         "@mdx-js/react": "^3.1.0",
         "@mdx-js/rollup": "^3.1.0",
+        "braces": "^3.0.3",
+        "chokidar": "^4.0.3",
         "framer-motion": "^12.4.2",
         "gray-matter": "^4.0.3",
         "lucide-react": "^0.263.1",
@@ -55,4 +57,5 @@
     "optionalDependencies": {
         "fsevents": "^2.3.3"
     }
+     
 }

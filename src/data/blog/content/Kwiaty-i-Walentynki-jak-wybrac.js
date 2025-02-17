@@ -1,4 +1,4 @@
-//src/data/blog/content/Kwiaty-i-Walentynki-jak-wybrac.js
+//src/data/blog/content/kwiaty-i-walentynki-jak-wybrac.js
 
 const content = `
  <style>
