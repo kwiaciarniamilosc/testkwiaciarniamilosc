@@ -4,7 +4,8 @@ export const categories = [
   { id: 'weddings', name: 'Śluby' },
   { id: 'events', name: 'Wydarzenia' },
   { id: 'flowerbox', name: 'pudełko na kwiaty' },
-  { id: 'funeral', name: 'pogrzebowa' }
+  { id: 'funeral', name: 'pogrzebowa' },
+  { id: 'newborns', name: 'Narodziny' }
 ];
  
 export const galleryItems = [
@@ -48,7 +49,7 @@ export const galleryItems = [
     title: 'Kwiaty na flowerbox',
     description: 'Wyjątkowe kompozycje na każdą okazję',
     category: 'flowerbox',
-    image: '/assets/images/gallery/IMG_5555.JPEG.jpg'
+    image: '/assets/images/gallery/IMG_1229.JPG'
   },
   {
     id: 7,

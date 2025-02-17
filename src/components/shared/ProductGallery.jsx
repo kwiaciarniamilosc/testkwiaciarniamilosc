@@ -118,9 +118,9 @@ const products = [
   id: 17,
   name: 'walentynkowy bukiet',
   description: 'Mówią o zachwycie, wdzięczności i najcieplejszych uczuciach. Idealny wybór na Walentynki,',
-  price: '500',
-  image: `${import.meta.env.BASE_URL}public/assets/images/gallery/IMG_5555.JPEG.jpg`
-}
+  price: '500zl',
+  image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5555.jpg`
+},
 ];
 
 const ProductGallery = () => {
