@@ -56,13 +56,13 @@ export const posts = [
     contentFile: 'emocje-ktore-daja-kwiaty'
   },
   {
-    slug: 'Kwiaty-i-Walentynki:-jak-wybrać',
+    slug: 'kwiaty-i-walentynki-jak-wybrac',
     title: "Kwiaty i Walentynki: jak wybrać?.",
     date: "14 lutego 2025",
     category: "Kwiaty do domu i biura",
     excerpt: "Kwiaty i Walentynki: jak wybrać? Walentynki to święto, kiedy uczucia rozkwitają, a kwiaty stają się najlepszymi ",
     image: '/assets/images/gallery/IMG_5907.JPEG',
-    contentFile: 'Kwiaty-i-Walentynki:-jak-wybrać'
+    contentFile: 'kwiaty-i-walentynki-jak-wybrac'
   }
 ];
  

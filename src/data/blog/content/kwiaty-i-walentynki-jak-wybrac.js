@@ -1,7 +1,6 @@
-//src/data/blog/content/kwiaty-i-walentynki-jak-wybrać.js
+//src/data/blog/content/kwiaty-i-walentynki-jak-wybrac.js
 
-const content = `
- <style>
+const content = ` <style>
     .blog-content {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -17,22 +16,22 @@ const content = `
   </style>
   <div class="blog-content">
   
- <h1>Kwiaty i Walentynki: jak wybrać?</h1>
+ <h1>Kwiaty i Walentynki: jak wybrać?.</h1>
         <p>Walentynki to święto, kiedy uczucia rozkwitają, a kwiaty stają się najlepszymi posłańcami miłości. 
         Dlaczego właśnie one? Ponieważ mają swój wyjątkowy język, zdolny przekazać czułość, namiętność, wdzięczność, a nawet obietnice na przyszłość.
-</p>
+        </p>
           
             <h2>Czerwone róże – symbol namiętnej miłości</h2>
 
-            <p>Czerwona róża to niezmienny faworyt Walentynek. Oznacza głęboką namiętność i oddanie. Im więcej róż w bukiecie, tym silniejsze uczucia. Jedna róża oznacza „jesteś moją jedyną”, trzy – „kocham Cię”, a 101 – nieskończoną miłość..</p>
+            <p>Czerwona róża to niezmienny faworyt Walentynek. Oznacza głęboką namiętność i oddanie. Im więcej róż w bukiecie, tym silniejsze uczucia. Jedna róża oznacza „jesteś moją jedyną”, trzy – „kocham Cię”, a 101 – nieskończoną miłość.</p>
             
             <h2>Różowe kwiaty – delikatność i romantyzm</h2>
 
-            <p>Jeśli czerwone róże wydają się zbyt intensywne, warto zwrócić uwagę na odcienie różu. Róże angielskie, tulipany czy jaskry w delikatnych różowych tonach symbolizują czułość, zauroczenie i podziw. Doskonale sprawdzą się na początku związku lub jako sposób na wyrażenie szczerego zachwytu..</p>
+            <p>Jeśli czerwone róże wydają się zbyt intensywne, warto zwrócić uwagę na odcienie różu. Róże angielskie, tulipany czy jaskry w delikatnych różowych tonach symbolizują czułość, zauroczenie i podziw. Doskonale sprawdzą się na początku związku lub jako sposób na wyrażenie szczerego zachwytu.</p>
             
             <h2>Białe kwiaty – czystość i harmonia</h2>
 
-            <p>Białe róże, orchidee czy lilie symbolizują oddanie, harmonię i szczere uczucia. Są idealnym wyborem dla tych, którzy chcą powiedzieć: „Kocham Cię nie tylko sercem, ale i duszą”..</p>
+            <p>Białe róże, orchidee czy lilie symbolizują oddanie, harmonię i szczere uczucia. Są idealnym wyborem dla tych, którzy chcą powiedzieć: „Kocham Cię nie tylko sercem, ale i duszą”.</p>
             
             <h2>Tulipany – kwiaty prawdziwego szczęścia</h2>
 

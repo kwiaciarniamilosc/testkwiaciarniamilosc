@@ -9,7 +9,7 @@ import przedluzycZycieBukietuContent from '../../data/blog/content/przedluzyc-zy
 import elegancjaCzerwonychRozContent from '../../data/blog/content/elegancja-czerwonych-roz-eukaliptus.js';
 import symboleMilosciContent from '../../data/blog/content/symbole-milosci-namietnosci-elegancji.js';
 import emocjeKwiatyContent from '../../data/blog/content/emocje-ktore-daja-kwiaty.js';
-import kwiatyIWalentynkiContent from '../../data/blog/content/Kwiaty-i-Walentynki-jak-wybrać.js';
+import kwiatyIWalentynkiContent from '../../data/blog/content/kwiaty-i-walentynki-jak-wybrac.js';
 
 // Map content files to their respective routes
 const contentMap = {
@@ -19,7 +19,7 @@ const contentMap = {
   'elegancja-czerwonych-roz-eukaliptus': elegancjaCzerwonychRozContent,
   'symbole-milosci-namietnosci-elegancji': symboleMilosciContent,
   'emocje-ktore-daja-kwiaty': emocjeKwiatyContent,
-  'kwiaty-i-walentynki-jak-wybrać': kwiatyIWalentynkiContent,
+  'kwiaty-i-walentynki-jak-wybrac': kwiatyIWalentynkiContent,
 };
 
 const BlogDetail = () => {

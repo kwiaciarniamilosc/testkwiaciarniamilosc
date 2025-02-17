@@ -84,12 +84,11 @@ const products = [
  id: 12,
  name: 'Verona',
  description: 'Bukiet składa się z róż gałązkowych i klasycznych, eustomy, alstromerii oraz goździków.',
- price: '150–400 zł',
+ price: '150-400 zł',
  image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_2761.JPG`
 },
 {
   id: 13,
-<<<<<<< HEAD
   name: 'Seville',
   description: 'Bukiet składa się z róż gałązkowych i klasycznych, eustomy oraz eukaliptusa',
   price: ' 250-700 zł',
@@ -99,7 +98,7 @@ const products = [
   id: 14,
   name: 'Bouquet of roses',
   description: 'Ten bukiet to idealne połączenie delikatności, elegancji i uczuć, które ',
-  price: ' 535zl',
+  price: ' 535 zl',
   image: `${import.meta.env.BASE_URL}assets/images/gallery/blog5.jpg`
 },
 {
@@ -123,13 +122,13 @@ const products = [
   price: '500zl',
   image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5555.jpg`
 },
-=======
+{
+  id: 18,
   name: 'Polne Kwiaty',
   description: 'Naturalna kompozycja polnych kwiatów',
   price: '250 zł',
   image: `${import.meta.env.BASE_URL}assets/images/gallery/wild.jpg`
 }
->>>>>>> 9884780f2efee0b7134a19ce52d52f59cbdb2b67
 ];
 
 const ProductGallery = () => {
