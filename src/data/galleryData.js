@@ -137,6 +137,27 @@ export const galleryItems = [
   },
   {
     id: 19,
+    title: 'yellow róże ',
+    description: 'wielokolorowy romantyczny gest na walentynki',
+    category: 'bouquets',
+    image: '/assets/images/hero/TZH07862.jpg'
+  },
+  {
+    id: 20,
+    title: 'bukietsn',
+    description: 'Wyjątkowe kompozycje na ',
+    category: 'bouquets',
+    image: '/assets/images/gallery/TZH00458.jpg'
+  },
+  {
+    id: 21,
+    title: 'collection',
+    description: ' elegancki bukiets',
+    category: 'events',
+    image: '/assets/images/hero/TZH00142.jpg'
+  },
+  {
+    id: 22,
     title: 'vibranium',
     description: 'Klasyczny bukiet na wyjątkowy dzień',
     category: 'bouquets',

@@ -6,22 +6,22 @@ const HeroSection = () => {
 
   const heroImages = [
     {
-      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main3.JPEG`,
+      url: `${import.meta.env.BASE_URL}assets/images/hero/TZH00142.jpg`,
       title: "Wyraź Swoją Miłość",
       subtitle: "Wyjątkowymi Kwiatami",
-      alt: "Walentynkowe kompozycje kwiatowe"
+      alt: "Spraw, by poczuła się wyjątkowo w ten Dzień Kobiet!"
     },
     {
-      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main1.JPEG`,
-      title: "Kolekcja Walentynkowa",
+      url: `${import.meta.env.BASE_URL}assets/images/hero/TZH00313.jpg`,
+      title: "Kolekcja na Dzień Kobiet",
       subtitle: "2025",
-      alt: "Specjalna kolekcja na Walentynki"
+      alt: "Specjalna kolekcja dla królowych w Twoim świecie "
     },
     {
-      url: `${import.meta.env.BASE_URL}assets/images/hero/hero-main3.JPEG`,
-      title: "Romantyczne Róże",
+      url: `${import.meta.env.BASE_URL}assets/images/hero/TZH07867.jpg`,
+      title: "Tętniące życiem kolekcje",
       subtitle: "Dostawa w Dniu Zamówienia",
-      alt: "Walentynkowe bukiety róż"
+      alt: "Zamów w przedsprzedaży swój unikalny bukiet"
     }
   ];
 
@@ -80,26 +80,10 @@ const HeroSection = () => {
               loading={index === 0 ? "eager" : "lazy"}
               className="absolute inset-0 w-full h-full object-cover"
             />
-          </picture>
-          {/* Romantic gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-rose-900/60 via-rose-900/50 to-rose-900/70" />
-        </div>
-      ))}
-
-      {/* Floating hearts animation */}
-      <div className="absolute inset-0 pointer-events-none">
-        {[...Array(6)].map((_, i) => (
-          <Heart
-            key={i}
-            className={`absolute text-rose-200/30 animate-float-${i + 1} w-${8 + i * 2} h-${8 + i * 2}`}
-            style={{
-              left: `${15 + i * 20}%`,
-              animationDelay: `${i * 0.5}s`,
-              top: '-20px'
-            }}
-          />
-        ))}
-      </div>
+            </picture>
+            </div>
+          ))}
+       
 
       {/* Navigation arrows */}
       <button
@@ -141,15 +125,14 @@ const HeroSection = () => {
           <span className="text-rose-300">{heroImages[currentImageIndex].subtitle}</span>
         </h1>
         <p className="text-lg sm:text-xl text-white mb-8 drop-shadow-lg font-medium">
-          Spraw, by tegoroczne Walentynki były wyjątkowe dzięki naszym ekskluzywnym kompozycjom kwiatowym.
-          Zamów teraz z gwarantowaną dostawą 14 lutego.
+        dzień kobiet ,Uczcij niesamowite kobiety w swoim życiu eleganckim bukietem od Kwiaciarni Miłość. Okaż swoją wdzięczność za pomocą zapierających dech w piersiach kompozycji kwiatowych, które oddają piękno, siłę i wdzięk.
         </p>
         <div className="space-x-4">
           <a
             href="https://wolt.com/pl/pol/warsaw/venue/pracownia-kwiatw-i-balonw-mio/items/valentines-day-1"
             className="inline-flex items-center px-6 py-3 bg-rose-500 hover:bg-rose-600 text-white rounded-full text-lg transition-all transform hover:scale-105"
           >
-            Zobacz Kolekcję Walentynkową
+           poznaj wyjątkową kolekcję
             <ChevronRight className="ml-2 h-5 w-5" />
           </a>
           <a
