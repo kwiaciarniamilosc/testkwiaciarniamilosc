@@ -1,0 +1,42 @@
+body {
+            background-color: #ffe6f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+            flex-direction: column;
+        }
+        .message {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 48px;
+            color: darkred;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid darkred;
+            width: 0;
+            animation: typing 4s steps(30, end) forwards, fade-in 2s ease-in-out 4s forwards;
+        }
+        .heart {
+            position: absolute;
+            font-size: 24px;
+            color: red;
+            opacity: 0.8;
+            animation: float 6s infinite ease-in-out;
+        }
+        .heart:nth-child(2) { top: 20%; left: 10%; animation-duration: 4s; }
+        .heart:nth-child(3) { top: 70%; right: 15%; animation-duration: 6s; }
+        .heart:nth-child(4) { top: 40%; left: 50%; animation-duration: 5s; }
+        .heart:nth-child(5) { top: 80%; left: 30%; animation-duration: 7s; }
+        .heart:nth-child(6) { top: 10%; right: 20%; animation-duration: 4.5s; }
+        .heart:nth-child(7) { top: 50%; right: 40%; animation-duration: 6.5s; }
+        .heart:nth-child(8) { bottom: 30%; left: 60%; animation-duration: 5.5s; }
+
+        @keyframes float {
+            0% { transform: translate(0px, 0px); opacity: 0.8; }
+            25% { transform: translate(10px, -20px); opacity: 1; }
+            50% { transform: translate(-10px, -10px); opacity: 0.9; }
+            75% { transform: translate(15px, -25px); opacity: 1; }
+            100% { transform: translate(0px, 0px); opacity: 0.8; }
+        }

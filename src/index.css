@@ -12,4 +12,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  body {
+    background-color: #ffe6f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.flower {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: bloom 3s ease-in-out forwards;
+}
+
+@keyframes bloom {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 }
