@@ -3,8 +3,8 @@ export const categories = [
   { id: 'bouquets', name: 'Bukiety' },
   { id: 'weddings', name: 'Śluby' },
   { id: 'events', name: 'Wydarzenia' },
-  { id: 'flowerbox', name: 'Ostatnie pożegnanie' },
-  { id: 'funeral', name: 'pogrzebowa' },
+  { id: 'flowerbox', name: 'FlowerBox' },
+  { id: 'funeral', name: 'Ostatnie pożegnanie' },
   { id: 'newborns', name: 'balony' }
 ];
  
@@ -27,7 +27,7 @@ export const galleryItems = [
     id: 3,
     title: 'Odkryj Red Roses',
     description: 'FlowerBox z czerwonymi różami i eukaliptusem w aksamitnym pudełku',
-    category: 'Ostatnie pożegnanie', 
+    category: 'FlowerBox', 
     image: '/assets/images/gallery/Odkryj-red-roses.JPG'
   },
   {
@@ -48,7 +48,7 @@ export const galleryItems = [
     id: 6,
     title: 'Kwiaty na flowerbox',
     description: 'Wyjątkowe kompozycje na każdą okazję',
-    category: 'Ostatnie pożegnanie',
+    category: 'FlowerBox',
     image: '/assets/images/gallery/IMG_1229.JPG'
   },
   {
