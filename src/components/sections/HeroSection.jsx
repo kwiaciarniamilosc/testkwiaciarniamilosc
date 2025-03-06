@@ -13,7 +13,7 @@ const HeroSection = () => {
     },
     {
       url: `${import.meta.env.BASE_URL}assets/images/hero/TZH00313.jpg`,
-      title: "Kolekcja na Dzień Kobiet",
+      title: "Kolekcja na dzień kobiet",
       subtitle: "2025",
       alt: "Specjalna kolekcja dla królowych w Twoim świecie "
     },

@@ -18,14 +18,14 @@ export const galleryItems = [
   },
   {
     id: 2,
-    title: 'Bukiet ślubny', 
+    title: 'Bukiet ślubny z kalii ', 
     description: 'Bukiet ślubny z róż peoniowych, piwonii i eukaliptusa',
     category: 'weddings',
     image: '/assets/images/gallery/photo_2025-02-05_21-39-58.jpg'
   },
   {
     id: 3,
-    title: 'Odkryj Red Roses',
+    title: 'Róże z eukaliptusem',
     description: 'FlowerBox z czerwonymi różami i eukaliptusem w aksamitnym pudełku',
     category: 'FlowerBox', 
     image: '/assets/images/gallery/Odkryj-red-roses.JPG'
@@ -46,14 +46,14 @@ export const galleryItems = [
   },
   {
     id: 6,
-    title: 'Kwiaty na flowerbox',
+    title: 'Gerbery i eukaliptus',
     description: 'Wyjątkowe kompozycje na każdą okazję',
     category: 'FlowerBox',
     image: '/assets/images/gallery/IMG_1229.JPG'
   },
   {
     id: 7,
-    title: 'Kwiaty na Specjalne Okazje',
+    title: 'Róża gałązkowa w wazonie',
     description: 'kwiaty na specjalne okazje',
     category: 'events',
     image: '/assets/images/gallery/hero-cover.jpg'
@@ -67,7 +67,7 @@ export const galleryItems = [
   },
   {
     id: 9,
-    title: 'Kwiaty na flowerbox',
+    title: 'Kwiaty w pudełku',
     description: 'Flower Box z kwiatami na wyjątkowe chwile',
     category: 'events',
     image: '/assets/images/gallery/bouquet4.jpg'
@@ -82,84 +82,77 @@ export const galleryItems = [
   {
     id: 11,
     title: 'Pamiętamy',
-    description: 'Szerokość wianka - 90 cm Aby złożyć zamówienie zadzwoń do nas +48 733 060 191',
+    description: 'Szerokość wianka - 90 cm, Aby złożyć zamówienie zadzwoń do nas +48 733 060 191',
     category: 'funeral',
     image: '/assets/images/gallery/IMG_4743.jpg'
   },
   {
     id: 12,
-    title: 'W żałobie',
+    title: 'Wiązanka pogrzebowa',
     description: 'Wiązanka pogrzebowy z czerwonymi różami',
     category: 'funeral',
     image: '/assets/images/gallery/IMG_1527.jpg'
   },
   {
-    id: 13,
-    title: 'W żałobie',
-    description: 'Wiązanka pogrzebowy z z mieszanych kwiatów',
-    category: 'funeral',
-    image: '/assets/images/gallery/IMG_1999.jpg'
-  },
-  {
     id: 14,
-    title: 'walentynkowy bukiet',
-    description: ' order call us +48 733 060 191',
+    title: 'FlowerBox z kwiatami w odcieniach pastelowych ',
+    description: 'Aby złożyć zamówienie zadzwoń do nas +48 733 060 191',
     category: 'bouquets',
     image: '/assets/images/gallery/IMG_6104 (2).JPG'
   },
   {
     id: 15,
-    title: 'Różowe róże ',
-    description: 'wielokolorowy romantyczny gest na walentynki',
+    title: 'Czerwone róże Red Naomi ',
+    description: 'Czerwona róża jest ponadczasową klasyką',
     category: 'bouquets',
     image: '/assets/images/gallery/IMG_6047.JPG'
   },
   {
     id: 16,
-    title: 'wyjątkowy bukietsn',
-    description: 'Wyjątkowe kompozycje na każdą okazję',
+    title: 'Serenade',
+    description: 'Autorski bukiet kwiatów w odcieniach pastelowych w rozmiarze XL',
     category: 'bouquets',
     image: '/assets/images/gallery/IMG_5317.JPG'
   },
   {
     id: 17,
-    title: 'collection',
-    description: ' elegancki bukiet na wesele',
+    title: 'Good mood',
+    description: 'Elegancki bukiet na różne okazje: ślub, urodziny lub na wyjątkowy dzień',
     category: 'events',
     image: '/assets/images/gallery/IMG_5562.JPEG.jpg'
   },
   {
     id: 18,
     title: 'Bukiet ślubny',
-    description: 'Wyjątkowe kompozycje na każdą okazję',
+    description: 'Bukiet ślubny z piwonii,róży piwoniowej i eukaliptusa',
     category: 'weddings',
     image: '/assets/images/gallery/IMG_7265.JPG'
   },
   {
     id: 19,
-    title: 'yellow róże ',
-    description: 'wielokolorowy romantyczny gest na walentynki',
+    title: 'Bukiet autorski',
+    description: 'Bukiet kwiatów z intensywnymi kolorami',
     category: 'bouquets',
     image: '/assets/images/hero/TZH07862.jpg'
   },
   {
     id: 20,
-    title: 'bukietsn',
-    description: 'Wyjątkowe kompozycje na ',
+    title: 'Bukiet eustom z eukaliptusem',
+    description: 'Bukiet idealny na randkę, urodziny lub inne ważne wydarzenie',
     category: 'bouquets',
     image: '/assets/images/gallery/TZH00458.jpg'
   },
   {
     id: 21,
-    title: 'collection',
-    description: ' elegancki bukiets',
+    title: 'Kwiaty z Miłością',
+    description: 'W naszej kwiaciarni znajdziesz kwiaty na każdą okazję',
     category: 'events',
     image: '/assets/images/hero/TZH00142.jpg'
   },
   {
     id: 22,
-    title: 'vibranium',
-    description: 'Klasyczny bukiet na wyjątkowy dzień',
+    title: 'Ranunkulus i oksypetalum',
+    description: 'Delikatne połączenie kwiatów na wyjątkową okazję',
     category: 'bouquets',
     image: '/assets/images/gallery/IMG_2153.JPG'
   }

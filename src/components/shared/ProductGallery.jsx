@@ -11,11 +11,10 @@ const products = [
  },
  {
    id: 2,
-   name: 'Bukiet Ślubny Classic',
+   name: 'Bukiet ślubny z kalii',
    description: 'Klasyczny bukiet ślubny z róż i piwonii',
    price: '450 zł', 
    image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5425.jpg`
- 
  },
  {
    id: 3,
@@ -103,8 +102,8 @@ const products = [
 },
 {
   id: 15,
-  name: 'special gift for someone',
-  description: 'Ten zapierający dech w piersiach bukiet to harmonijne połączenie elegancji ',
+  name: 'Serenade',
+  description: 'Autorski bukiet kwiatów w odcieniach pastelowych w rozmiarze XL',
   price: ' 800 zł',
   image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5317.JPG`
 },
