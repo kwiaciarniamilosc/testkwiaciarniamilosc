@@ -5,7 +5,7 @@ export const categories = [
   { id: 'events', name: 'Wydarzenia' },
   { id: 'flowerbox', name: 'FlowerBox' },
   { id: 'funeral', name: 'Ostatnie pożegnanie' },
-  { id: 'newborns', name: 'balony' }
+  { id: 'newborns', name: 'Balony' }
 ];
  
 export const galleryItems = [

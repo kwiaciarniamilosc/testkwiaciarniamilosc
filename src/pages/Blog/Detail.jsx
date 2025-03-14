@@ -10,7 +10,7 @@ import elegancjaCzerwonychRozContent from '../../data/blog/content/elegancja-cze
 import symboleMilosciContent from '../../data/blog/content/symbole-milosci-namietnosci-elegancji.js';
 import emocjeKwiatyContent from '../../data/blog/content/emocje-ktore-daja-kwiaty.js';
 import kwiatyIWalentynkiContent from '../../data/blog/content/kwiaty-i-walentynki-jak-wybrac.js';
-
+import jakDbacOTulipanyContent from '../../data/blog/content/jak-dbac-o-tulipany.js'; // Corrected import statement
 // Map content files to their respective routes
 const contentMap = {
   'kwiaty-w-domu': kwiatyWDomuContent,
@@ -20,6 +20,8 @@ const contentMap = {
   'symbole-milosci-namietnosci-elegancji': symboleMilosciContent,
   'emocje-ktore-daja-kwiaty': emocjeKwiatyContent,
   'kwiaty-i-walentynki-jak-wybrac': kwiatyIWalentynkiContent,
+  'jak-dbac-o-tulipany': jakDbacOTulipanyContent, // Corrected key
+
 };
 
 const BlogDetail = () => {
@@ -30,7 +32,7 @@ const BlogDetail = () => {
     return <p>Post not found</p>;
   }
 
-  const postContent = contentMap[postId];
+  const postContent = contentMap[post.contentFile];
 
   return (
     <div className="max-w-4xl mx-auto p-6">

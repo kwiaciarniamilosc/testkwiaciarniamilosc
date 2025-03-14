@@ -63,6 +63,15 @@ export const posts = [
     excerpt: "Kwiaty i Walentynki: jak wybrać? Walentynki to święto, kiedy uczucia rozkwitają, a kwiaty stają się najlepszymi ",
     image: '/assets/images/gallery/IMG_5907.JPEG',
     contentFile: 'kwiaty-i-walentynki-jak-wybrac'
+  },
+  {
+    slug: 'Jak-dbać-o-tulipany',
+    title: "Jak dbać o tulipany: praktyczne wskazówki na ich sezon",
+    date: "8 marca 2025",
+    category: "Pomysły na prezenty",
+    excerpt: "Tulipany to jedne z najpiękniejszych kwiatów wiosennych. Ich różnorodne kolory i elegancka forma sprawiają, że cieszą oko w bukietach i dekoracjach wnętrz. Jednak, aby jak najdłużej zachowały świeżość, warto znać kilka prostych zasad pielęgnacji. ",
+    image: '/assets/images/gallery/DSC_77731.jpg',
+    contentFile: 'jak-dbac-o-tulipany'
   }
 ];
  

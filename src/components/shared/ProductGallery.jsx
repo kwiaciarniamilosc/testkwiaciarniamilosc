@@ -12,7 +12,7 @@ const products = [
  {
    id: 2,
    name: 'Bukiet ślubny z kalii',
-   description: 'Klasyczny bukiet ślubny z róż i piwonii',
+   description: 'Elegancki bukiet ślubny wykonany z kalii',
    price: '450 zł', 
    image: `${import.meta.env.BASE_URL}assets/images/gallery/IMG_5425.jpg`
  },

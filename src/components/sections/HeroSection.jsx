@@ -9,13 +9,13 @@ const HeroSection = () => {
       url: `${import.meta.env.BASE_URL}assets/images/hero/TZH00142.jpg`,
       title: "Wyraź Swoją Miłość",
       subtitle: "Wyjątkowymi Kwiatami",
-      alt: "Spraw, by poczuła się wyjątkowo w ten Dzień Kobiet!"
+      alt: "Celebrate every special Day with kwiaciarniamilosc !"
     },
     {
-      url: `${import.meta.env.BASE_URL}assets/images/hero/TZH00313.jpg`,
-      title: "Kolekcja na dzień kobiet",
+      url: `${import.meta.env.BASE_URL}assets/images/gallery/TZH00156.jpg`,
+      title: "Kolekcja rozgrzewająca serce",
       subtitle: "2025",
-      alt: "Specjalna kolekcja dla królowych w Twoim świecie "
+      alt: "Najlepsza kwiaciarnia warszawa "
     },
     {
       url: `${import.meta.env.BASE_URL}assets/images/hero/TZH07867.jpg`,
