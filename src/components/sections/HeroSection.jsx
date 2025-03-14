@@ -7,13 +7,13 @@ const HeroSection = () => {
   const heroImages = [
     {
       url: `${import.meta.env.BASE_URL}assets/images/hero/TZH00142.jpg`,
-      title: "Wyraź Swoją Miłość",
+      title: "Wyraź swoje emocje",
       subtitle: "Wyjątkowymi Kwiatami",
-      alt: "Celebrate every special Day with kwiaciarniamilosc !"
+      alt: "Świętuj każdy wyjątkowy dzień z FloristLove! !"
     },
     {
       url: `${import.meta.env.BASE_URL}assets/images/gallery/TZH00156.jpg`,
-      title: "Kolekcja rozgrzewająca serce",
+      title: "Kolekcje rozgrzewające serce",
       subtitle: "2025",
       alt: "Najlepsza kwiaciarnia warszawa "
     },
@@ -80,10 +80,9 @@ const HeroSection = () => {
               loading={index === 0 ? "eager" : "lazy"}
               className="absolute inset-0 w-full h-full object-cover"
             />
-            </picture>
-            </div>
-          ))}
-       
+          </picture>
+        </div>
+      ))}
 
       {/* Navigation arrows */}
       <button
@@ -125,7 +124,7 @@ const HeroSection = () => {
           <span className="text-rose-300">{heroImages[currentImageIndex].subtitle}</span>
         </h1>
         <p className="text-lg sm:text-xl text-white mb-8 drop-shadow-lg font-medium">
-        dzień kobiet ,Uczcij niesamowite kobiety w swoim życiu eleganckim bukietem od Kwiaciarni Miłość. Okaż swoją wdzięczność za pomocą zapierających dech w piersiach kompozycji kwiatowych, które oddają piękno, siłę i wdzięk.
+        Ciesz się każdym wyjątkowym dniem z miłością, kwiaciarnia, zawsze odświeżaj swoje wspomnienia świeżymi kwiatami
         </p>
         <div className="space-x-4">
           <a
