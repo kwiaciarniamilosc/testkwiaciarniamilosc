@@ -124,7 +124,7 @@ const HeroSection = () => {
           <span className="text-rose-300">{heroImages[currentImageIndex].subtitle}</span>
         </h1>
         <p className="text-lg sm:text-xl text-white mb-8 drop-shadow-lg font-medium">
-        Ciesz się każdym wyjątkowym dniem z miłością, kwiaciarnia, zawsze odświeżaj swoje wspomnienia świeżymi kwiatami
+        
         </p>
         <div className="space-x-4">
           <a

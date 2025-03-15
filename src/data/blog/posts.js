@@ -1,5 +1,4 @@
-// src/data/blog/posts.js
-
+// Data: Posts data
 export const posts = [
   {
     slug: 'kwiaty-w-domu-atmosfera-przytulnosci',
@@ -69,12 +68,20 @@ export const posts = [
     title: "Jak dbać o tulipany: praktyczne wskazówki na ich sezon",
     date: "8 marca 2025",
     category: "Pomysły na prezenty",
-    excerpt: "Tulipany to jedne z najpiękniejszych kwiatów wiosennych. Ich różnorodne kolory i elegancka forma sprawiają, że cieszą oko w bukietach i dekoracjach wnętrz. Jednak, aby jak najdłużej zachowały świeżość, warto znać kilka prostych zasad pielęgnacji. ",
+    excerpt: "Tulipany to jedne z najpiękniejszych kwiatów wiosennych. Ich różnorodne kolory i elegancka forma sprawiają, że cieszą oko w bukietach i dekoracjach wnętrz.  ",
     image: '/assets/images/gallery/DSC_77731.jpg',
     contentFile: 'jak-dbac-o-tulipany'
+  },
+  {
+    slug: 'Mimoza-Słoneczny-symbol-wiosny',
+    title: "Słoneczny symbol wiosny MIMOZA",
+    date: " 15 marca 2025",
+    category: "Psychologia i symbolika kwiatów",
+    excerpt: "Z pierwszymi promieniami wiosennego słońca na półkach kwiaciarni pojawiają się delikatne, puszyste gałązki mimozy. ",
+    image: '/assets/images/gallery/IMG_8035.JPG',
+    contentFile: 'Mimoza-Słoneczny-symbol-wiosny'
   }
 ];
- 
 
 export const categories = [
  { icon: "leaf", text: "Kwiaty do domu i biura" },
@@ -82,5 +89,6 @@ export const categories = [
  { icon: "star", text: "Psychologia i symbolika kwiatów" },
  { icon: "user-graduate", text: "Kompozycje kwiatowe" },
  { icon: "calendar-alt", text: "Pomysły na prezenty" },
- { icon: "heart", text: "Porady florysty" }
+ { icon: "heart", text: "Porady florysty" },
+ { icon: "sun", text: "Kwiaty sezonowe" }
 ];
