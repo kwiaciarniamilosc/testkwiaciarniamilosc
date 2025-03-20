@@ -7,15 +7,12 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   plugins: [
     react(),
-
     // 📝 Markdown Preview
     markdownPreview(),
-
     // 🔥 Gzip & Brotli Compression
     compression({
       algorithm: 'brotliCompress',
     }),
-
     // 📱 Progressive Web App (PWA)
     VitePWA({
       registerType: 'autoUpdate',
@@ -26,9 +23,11 @@ export default defineConfig({
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#ff3366',
+        start_url: '/testkwiaciarniamilosc.pl/',
+        scope: '/testkwiaciarniamilosc.pl/',
         icons: [
           {
-            src: '/assets/images/logo/favicon.ico',
+            src: '/testkwiaciarniamilosc.pl/assets/images/logo/favicon.ico',
             sizes: '192x192',
             type: 'image/png',
           },
@@ -36,10 +35,8 @@ export default defineConfig({
       },
     }),
   ],
-
-  // 🌐 Base URL
+  // 🌐 Base URL - Updated for GitHub Pages
   base: '/testkwiaciarniamilosc.pl/',
-
   // 🏗️ Optimized Build Configuration
   build: {
     assetsDir: 'assets',
@@ -57,7 +54,6 @@ export default defineConfig({
       },
     },
   },
-
   // 🌍 Define Server Configuration
   server: {
     port: 3000,
