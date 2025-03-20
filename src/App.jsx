@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelmetProvider } from 'react-helmet-async';  // ✅ Added HelmetProvider at the top
+import { HelmetProvider } from 'react-helmet-async';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/shared/Layout';
 import Home from './pages/Home';
@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <HelmetProvider>  {/* ✅ Wrap the whole app properly */}
+    <HelmetProvider>
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
