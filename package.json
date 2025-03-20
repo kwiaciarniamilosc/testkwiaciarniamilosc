@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://www.kwiaciarniamilosc.pl/",
+    "homepage": "https://kwiaciarniamilosc.github.io/testkwiaciarniamilosc.pl/",
     "scripts": {
         "predeploy": "npm run build",
         "dev": "vite",
