@@ -38,7 +38,7 @@ export default defineConfig({
   ],
 
   // 🌐 Base URL
-  base: '/',
+  base: '/testkwiaciarniamilosc.pl/',
 
   // 🏗️ Optimized Build Configuration
   build: {
